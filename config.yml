@@ -1,0 +1,16 @@
+#The file name you want to read the inputs from
+file_name: "inputs.xlsx"
+#Pick from ["WMM", "WMMHR", "IGRF"]
+model: 'WMM'
+year: 2025
+month: 1
+day: 1
+arp:
+#Set used to True if we are considering an ARP, else false
+  used: True
+#Wrap the DMS in between "" and make sure to write the \ before the " just before the heading
+  arp_loc: ["59°39'07.00\"N", "017°55'07.00\"E"]
+  arp_decl: 8
+  #Radius in nm in which the arp_decl is used
+  arp_radius: 25
+
