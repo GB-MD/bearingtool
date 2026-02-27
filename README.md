@@ -10,12 +10,12 @@ Steps to get it to work (slightly different for mac, come talk to me if you have
 - Open anaconda prompt
 - Go to the project directory, copy its path (see GIF below)
 
-<img src="./figures/path.gif" width="450">
+<img src="./figures/path.gif" width="600">
 
 - Type `cd` and copy paste the path into the terminal
 
 
-<img src="./figures/paste_path.gif" width="450">
+<img src="./figures/paste_path.gif" width="600">
 
 - Copy and paste the command below into the terminal
 
@@ -42,7 +42,7 @@ There are two interfaces for inputting parameters:
 
 Edit the parameters in `config.yml` by opening it in notepad (or any text editor) and filling in the desired inputs for the input filename, model, date and the ARP parameters.
 
-<img src="./figures/config.png" width="450">
+<img src="./figures/config.png" width="600">
 
 The inputs in excel are done in two sheets, one for the waypoints and the other for the routes. For the waypoints, you'll need the waypoints designator latitude and longitude (in dd or DMS) in the **first sheet**.
 
