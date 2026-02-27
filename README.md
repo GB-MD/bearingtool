@@ -26,7 +26,7 @@ Edit the parameters in `config.yml` by opening it in notepad (or any text editor
 Paste the following instructions on the miniconda terminal:
 
 ```
-conda create env -f environment.yml
+conda env create -f environment.yml
 ```
 ```
 conda activate bearingtool
